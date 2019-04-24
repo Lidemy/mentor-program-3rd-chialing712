@@ -5,6 +5,5 @@ function join(str, concatStr) {
 function repeat(str, times) {
   return times;
 }
-
 console.log(join('a', '!'));
 console.log(repeat('a', 5));
