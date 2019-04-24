@@ -1,10 +1,23 @@
 function join(str, concatStr) {
-  return concatStr;
+	x = [];
+	for(var i = 0; i < str.length; i++){
+		y = str[i]+concatStr
+		x = x + y
+		
+	}
+
+  return x;
 }
 
 function repeat(str, times) {
-  return times;
+ var n = []
+ var multiply = []
+ while(n < times){
+ 	multiply = multiply + str
+ 	n++;
+ }
+  return multiply;
 }
 
-console.log(join('a', '!'));
-console.log(repeat('a', 5));
+console.log(join([1,2,3], '!'));
+console.log(repeat('yoyo', 2));
