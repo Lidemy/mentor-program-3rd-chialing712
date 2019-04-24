@@ -5,5 +5,4 @@ function reverse(str) {
 	}
   return console.log(x);
 }
-
 reverse('1,2,3,2,1');

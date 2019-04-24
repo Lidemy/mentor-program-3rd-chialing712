@@ -18,6 +18,5 @@ function repeat(str, times) {
  }
   return multiply;
 }
-
 console.log(join([1,2,3], '!'));
 console.log(repeat('yoyo', 2));
