@@ -16,7 +16,7 @@ function repeat(str, times) {
  	multiply = multiply + str
  	n++;
  }
-  return multiply;ddd
+  return multiply;
 }
 
 console.log(join([1,2,3], '!'));
