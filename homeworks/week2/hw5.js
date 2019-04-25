@@ -1,22 +1,22 @@
 function join(str, concatStr) {
-	x = [];
-	for(var i = 0; i < str.length; i++){
-		y = str[i]+concatStr
-		x = x + y
-		
-	}
+  let x = [];
+  for (let i = 0; i < str.length; i += 1) {
+    const y = str[i] + concatStr;
+    x += y;
+  }
 
   return x;
 }
 
 function repeat(str, times) {
- var n = []
- var multiply = []
- while(n < times){
- 	multiply = multiply + str
- 	n++;
- }
+  let n = [];
+  let multiply = [];
+  while (n < times) {
+    multiply += str;
+    n += 1;
+  }
   return multiply;
 }
-console.log(join([1,2,3], '!'));
+
+console.log(join([1, 2, 3], '!'));
 console.log(repeat('yoyo', 2));

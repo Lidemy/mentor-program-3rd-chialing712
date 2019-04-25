@@ -1,9 +1,10 @@
 function printStars(n) {
-	var i = 0;
-  while(i < n){
-  	console.log("*")
-  	i++;
+  let i = 0;
+  while (i < n) {
+    console.log('*');
+    i += 1;
   }
 }
+
 
 printStars(5);
