@@ -1,3 +1,4 @@
+
 function join(str, concatStr) {
   let x = [];
   for (let i = 0; i < str.length; i += 1) {
@@ -9,7 +10,7 @@ function join(str, concatStr) {
 }
 
 function repeat(str, times) {
-  let n = [];
+  let n = 0;
   let multiply = [];
   while (n < times) {
     multiply += str;
@@ -18,5 +19,5 @@ function repeat(str, times) {
   return multiply;
 }
 
-console.log(join([1, 2, 3], '!'));
-console.log(repeat('yoyo', 2));
+console.log(join([1, 2, 3, 4], ''));
+console.log(repeat('a', 5));
