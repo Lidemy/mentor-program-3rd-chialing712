@@ -1,3 +1,4 @@
+
 const stars = require('./hw1');
 
 describe('hw1', () => {
