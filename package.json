@@ -28,7 +28,8 @@
   },
   "homepage": "https://github.com/aszx87410/program-3rd#readme",
   "dependencies": {
-    "left-pad": "^1.3.0"
+    "left-pad": "^1.3.0",
+    "request": "^2.88.0"
   },
   "devDependencies": {
     "@babel/core": "^7.4.4",
