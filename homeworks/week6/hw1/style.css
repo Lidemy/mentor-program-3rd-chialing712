@@ -4,7 +4,7 @@ body{
 }
 
 
-.wgaaa {
+.main {
  background : #E9ECEF;
  margin: 0 auto;
  max-width: 100%;
@@ -107,7 +107,7 @@ ul {
 
 
 @media screen and (max-width: 750px) {
-	.wgaaa{
+	.main{
 		padding-top:20px;
 		font-size:80%;
 
