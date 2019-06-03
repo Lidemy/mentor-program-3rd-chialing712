@@ -13,10 +13,6 @@ body{
 
 }
 
-.wrapper > .article{
-
-}
-
 .wrapper{
 		margin: 30px auto;
 		max-width: 900px;
@@ -62,3 +58,9 @@ font-size: 20px;
 	border-color:red;
 	cursor: pointer;
 }
+
+@media screen and (max-width: 1120px){
+.clap {
+    display: none;
+}
+

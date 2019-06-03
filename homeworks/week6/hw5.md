@@ -7,8 +7,8 @@
 盒模型基本上是由四個東西組成分別是: Content、padding、border 與 Margin。
 content: 也就是實際內容。
 padding: 他會在元素裡面做空間。
-Border: 元素的邊寬，與 Padding 一樣，會影響大小。
-Margin: 他本身是白色，他不會影響元素本身，但他會影響其他元素。 
+Border: 元素的邊寬，與 Padding 一樣，會影響元素本身大小。
+Margin: 他本身是透明，他不會影響元素本身，但他會影響在他旁邊的其他元素。 
 
 ## 請問 display: inline, block 跟 inline-block 的差別是什麼？
 
